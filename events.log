@@ -8,4 +8,4 @@ timestamp,userId,action,actionData
 1160,2,put,session1_event3
 1200,1,get,session2_event1
 1210,1,click,session2_event2
-1260,1,put,session2_event3)
+1260,1,put,session2_event3

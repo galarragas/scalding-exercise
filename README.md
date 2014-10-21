@@ -14,12 +14,12 @@ Events are indicating the following information:
 - action: the HTTP verb associated to the operation
 - actionData: other information associated to the operation
 
-The purpose is extract statistics about the number of sessions per users. In more detail we want to extract:
+The purpose is extract statistics about the users session. In more detail we want to extract:
 
 - The average session duration 
 - The average number of actions per session. 
 
-A user session is defined by a series of user actions separated by an interval of time less than 10 minutes
+A user session is defined by a series of user actions separated by an interval of time less than 10 seconds
 
 ## Required Output
 
@@ -29,4 +29,4 @@ A Scalding Job class plus its runner and all the tests required to prove that th
 
 Shorter face to face interview: 
 
-the main logic of the scalding job. A description of the main macro-functions to implement and an implementation of at least one of them. The 
+the main logic of the scalding job. A description of the main macro-functions to implement and an implementation of at least one of them. Description and basic implementation of tests
