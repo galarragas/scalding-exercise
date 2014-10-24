@@ -1,11 +1,10 @@
 package net.imagini.sbt
 
-import sbt._
 import sbt.Keys._
+import sbt._
 import sbtrelease.ReleasePlugin.ReleaseKeys._
-import sbtrelease._
 import sbtrelease.Utilities._
-import sbtrelease.ReleaseStateTransformations._
+import sbtrelease._
 
 object ExtraSettings {
   var isRC: Boolean = false
@@ -24,8 +23,6 @@ object ExtraSettings {
         st
     }
   )
-
-  // Stuff above I think is pointless - I don't like sbt doing this weird git stuff, it just breaks all the time
 
   def snapshotCommandCurrentProject = Command.command("snapshot") {
     state =>

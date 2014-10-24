@@ -11,7 +11,7 @@ import sbtrelease.ReleasePlugin.ReleaseKeys._
 import sbtrelease.ReleasePlugin._
 import scala.Some
 
-// TODO Should rename to MyAppBuild
+
 object ScaldingExerciseBuild extends Build {
   val appName = "log-analysis"
   val companyName = "barclays"
