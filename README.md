@@ -19,7 +19,8 @@ The purpose is extract statistics about the users session. In more detail we wan
 - The average session duration 
 - The average number of actions per session. 
 
-A user session is defined by a series of user actions separated by an interval of time less than 10 seconds
+A user session is defined by a series of user actions separated by an interval of time less than 10 milliseconds (just for this example, should be in the range of minutes in a real example).
+Please consider that you can't rely on the event description to determine the session, the description in the example file is just to explain the concept. You need to focus on the event timestamp.
 
 ## Required Output
 
